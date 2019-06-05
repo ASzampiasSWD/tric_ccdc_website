@@ -324,8 +324,8 @@ ol {
 .header-bar-warp {
 	background: #081624;
 	padding: 39px 40px 0;
-	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
-	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+	/*-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);*/
+	box-shadow: 0 0 9px 3px rgba(40, 142, 160, 0.24);    /*rgba(226, 30, 228, 0.24);*/
 }
 
 .site-logo {
@@ -631,10 +631,11 @@ ol {
 	background: #501755;
 	/* Old browsers */
 	/* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
+	/*background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);*/
 	/* Chrome10-25,Safari5.1-6 */
-	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
+	/*background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
+	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);*/
+	background: linear-gradient(45deg, #171c54 0%, #288ea0 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
 	/* IE6-9 fallback on horizontal gradient */
@@ -659,7 +660,8 @@ ol {
 	padding: 16px 36px;
 	font-size: 16px;
 	font-weight: 700;
-	background: #6f2b95;
+	/*background: #6f2b95;*/
+	background: #171c54;
 	line-height: 1.1;
 	margin-right: 7px;
 	-webkit-transition: all 0.3s;
@@ -669,7 +671,8 @@ ol {
 }
 
 .blog-filter li a:hover {
-	background: #b01ba5;
+	/*background: #b01ba5;*/
+	background: #288ea0;
 }
 
 .blog-item {
@@ -739,7 +742,8 @@ ol {
 }
 
 .categories-widget {
-	background: #34164b;
+	/*background: #34164b;*/
+	background: #171c54;
 	padding: 55px 0 25px;
 }
 
@@ -763,14 +767,15 @@ ol {
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
-	background-image: url("../img/icons/double-arrow.png");
+	background-image: url("../img/icons/double-arrow-blue3.png");
 	background-repeat: no-repeat;
 	background-position: right -120% center;
 	background-size: 11px;
 }
 
 .categories-widget ul li a:hover {
-	color: #b01ba5;
+	/*color: #b01ba5;*/
+	color: whitesmoke;
 	background-position: right center;
 }
 
@@ -1009,18 +1014,6 @@ ol {
 .footer-section .container {
 	position: relative;
 	padding: 60px 15px 25px;
-}
-
-.footer-left-pic {
-	position: absolute;
-	left: -13px;
-	bottom: 19px;
-}
-
-.footer-right-pic {
-	position: absolute;
-	right: 50px;
-	bottom: 19px;
 }
 
 .footer-menu {

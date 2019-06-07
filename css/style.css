@@ -319,7 +319,8 @@ ol {
 .header-social a:hover,
 .footer-social a:hover,
 .geme-social-share a:hover {
-	background: #b01ba5;
+	/*background: #b01ba5;*/
+	background: #26cfc7;
 }
 
 .header-bar-warp {
@@ -371,7 +372,7 @@ ol {
 	padding-right: 20px;
 }
 
-.main-menu li a:after {
+.menu-drop-down a:after {
 	position: absolute;
 	content: "";
 	width: 20px;
@@ -392,8 +393,8 @@ ol {
 	color: #26cfc7;
 }
 
-.main-menu li a:hover:after {
-	background-image: url("../img/icons/arrow-down-color.png");
+.menu-drop-down a:hover:after {
+	background-image: url("../img/icons/arrow-down-color-blue.png");
 	color: #26cfc7;
 }
 
@@ -411,8 +412,8 @@ ol {
 	color: #26cfc7;
 }
 
-.main-menu li:hover>a:after {
-	background-image: url("../img/icons/arrow-down-color.png");
+ .menu-drop-down:hover>a:after {
+	background-image: url("../img/icons/arrow-down-color-blue.png");
 }
 
 .main-menu li .sub-menu {
@@ -451,7 +452,8 @@ ol {
 }
 
 .main-menu li .sub-menu li a:hover {
-	color: #b01ba5;
+	/*color: #b01ba5;*/
+	color: #26cfc7;
 }
 
 .slicknav_menu {
@@ -496,8 +498,10 @@ ol {
 }
 
 .hero-slider .owl-dots .owl-dot.active {
-	color: #b01ba5;
-	border: 2px solid #b01ba5;
+	/*color: #b01ba5;
+	border: 2px solid #b01ba5;*/
+	border: 2px solid #26cfc7;
+	color: #26cfc7;
 }
 
 .hero-slider .owl-nav {

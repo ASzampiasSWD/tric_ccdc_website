@@ -346,7 +346,7 @@ ol {
 }
 
 .user-panel a:hover {
-	color: #b01ba5;
+	color: #26cfc7;
 }
 
 .main-menu {
@@ -389,15 +389,16 @@ ol {
 }
 
 .main-menu li a:hover {
-	color: #b01ba5;
+	color: #26cfc7;
 }
 
 .main-menu li a:hover:after {
 	background-image: url("../img/icons/arrow-down-color.png");
+	color: #26cfc7;
 }
 
 .main-menu li a:hover i {
-	color: #b01ba5;
+	color: #26cfc7;
 }
 
 .main-menu li:hover .sub-menu {
@@ -407,7 +408,7 @@ ol {
 }
 
 .main-menu li:hover>a {
-	color: #b01ba5;
+	color: #26cfc7;
 }
 
 .main-menu li:hover>a:after {
@@ -513,7 +514,8 @@ ol {
 .hero-item {
 	height: 921px;
 	padding-top: 125px;
-	border-bottom: 2px solid #b01ba5;
+	/*border-bottom: 2px solid #b01ba5;*/
+	border-bottom: 2px solid #171c54;
 }
 
 .hero-item h2 {
@@ -1003,11 +1005,12 @@ ol {
 	background: #330d38;
 	/* Old browsers */
 	/* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #330d38 0%, #190d36 100%);
+	/*background: -webkit-linear-gradient(left, #330d38 0%, #190d36 100%);*/
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#330d38), to(#190d36));
+	/*background: -webkit-gradient(linear, left top, right top, from(#330d38), to(#190d36));
 	background: -o-linear-gradient(left, #330d38 0%, #190d36 100%);
-	background: linear-gradient(to right, #330d38 0%, #190d36 100%);
+	background: linear-gradient(to right, #330d38 0%, #190d36 100%);*/
+	background: linear-gradient(45deg, #171c54 0%, #288ea0 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330d38', endColorstr='#190d36', GradientType=1);
 	/* IE6-9 */
